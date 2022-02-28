@@ -7,7 +7,7 @@ interface Props {
 
 const Layout = ({ pageTitle, children }: Props) => {
   return (
-    <div>
+    <div className="overflow-y-auto">
       <Header />
       {children}
     </div>
