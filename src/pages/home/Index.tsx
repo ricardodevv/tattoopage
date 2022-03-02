@@ -61,7 +61,7 @@ const Index = () => {
         </main>
 
         {/* About section */}
-        <div className="flex w-9/12 m-auto">
+        <div className="flex w-full md:w-9/12 m-auto">
           <section className="flex my-12">
             <article className="flex flex-col mx-10">
               <h3 className="font-bold text-[3rem]">About me</h3>
